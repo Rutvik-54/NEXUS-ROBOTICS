@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced robotics solutions for the future. Explore our cutting-edge robots and AI technology.">
+    <meta name="keywords" content="robotics, AI, future technology, automation, intelligent robots">
+    <title>NEXUS ROBOTICS | Advanced AI Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="robot-loader"></div>
+    </div>
+
+    <!-- Sound Toggle -->
+    <div class="sound-toggle" id="soundToggle">
+        <i class="fas fa-volume-mute" id="soundIcon"></i>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">⟨⦾⟩</span> NEXUS ROBOTICS
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-shapes">
+            <div class="hero-shape shape1"></div>
+            <div class="hero-shape shape2"></div>
+            <div class="hero-shape shape3"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-subtitle">ADVANCING THE FUTURE OF AUTOMATION</p>
+            <h1 class="hero-title">Pioneering <span>Robotic</span> Intelligence For Tomorrow</h1>
+            <p class="hero-description">We design and develop cutting-edge robotics solutions that transform industries and push the boundaries of what's possible with artificial intelligence.</p>
+            <a href="#contact" class="cta-button"><span>Explore Solutions</span></a>
+        </div>
+        <div class="hero-3d-model">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+            <spline-viewer url="https://prod.spline.design/ESQAGOIUOtrLoXih/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title reveal">About Our Robots</h2>
+        <div class="about-content">
+            <div class="about-text reveal">
+                <p>At NEXUS ROBOTICS, we specialize in designing and manufacturing advanced robotic systems that seamlessly integrate with human workflows. Our team of engineers and AI specialists work together to create intelligent robots that adapt to their environment and learn from interactions.</p>
+                <p>Founded in 2020, we've quickly established ourselves as leaders in robotic innovation, with deployments across manufacturing, healthcare, and service industries.</p>
+                <div class="about-stats">
+                    <div class="stat-item reveal">
+                        <div class="stat-number" id="robotsDeployed">0</div>
+                        <div class="stat-label">Robots Deployed</div>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" id="teamMembers">0</div>
+                        <div class="stat-label">Team Members</div>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" id="globalClients">0</div>
+                        <div class="stat-label">Global Clients</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image reveal">
+                <img src="assets/AdvancedRobot.jpg" alt="Advanced Robot">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2 class="section-title reveal">Core Features</h2>
+        <div class="features-grid">
+            <div class="feature-card reveal">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="feature-title">Advanced AI</h3>
+                <p class="feature-description">Our robots feature state-of-the-art machine learning algorithms that enable them to adapt to complex environments and make intelligent decisions.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <h3 class="feature-title">Neural Networks</h3>
+                <p class="feature-description">Multi-layered neural networks enable our robots to recognize patterns, learn from experience, and optimize their performance over time.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3 class="feature-title">Modular Design</h3>
+                <p class="feature-description">Our modular architecture allows for easy customization and integration with existing systems, making deployment simple and efficient.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="feature-title">Enhanced Security</h3>
+                <p class="feature-description">Multi-layer encryption and advanced threat detection systems ensure your robotic deployments remain secure and protected.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3 class="feature-title">Remote Control</h3>
+                <p class="feature-description">Monitor and control your robots from anywhere with our intuitive cloud-based management platform.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="feature-title">Analytics Dashboard</h3>
+                <p class="feature-description">Comprehensive analytics provide insights into performance, efficiency, and operational metrics for data-driven decision making.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 class="section-title reveal">Robot Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item reveal">
+                <img src="/api/placeholder/600/400" alt="Industrial Robot" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Industrial Automation</h3>
+                    <p class="gallery-category">Manufacturing Solutions</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="/api/placeholder/600/400" alt="Medical Robot" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Medical Assistant</h3>
+                    <p class="gallery-category">Healthcare Applications</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="/api/placeholder/600/400" alt="Delivery Robot" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Autonomous Delivery</h3>
+                    <p class="gallery-category">Logistics & Transport</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="/api/placeholder/600/400" alt="Security Robot" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Security Patrol</h3>
+                    <p class="gallery-category">Surveillance Systems</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="/api/placeholder/600/400" alt="Humanoid Robot" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Humanoid Companion</h3>
+                    <p class="gallery-category">Social Robotics</p>
+                </div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="/api/placeholder/600/400" alt="Agricultural Robot" class="gallery-image">
+                <div class="gallery-overlay">
+                    <h3 class="gallery-title">Agricultural Assistant</h3>
+                    <p class="gallery-category">Farming Solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info reveal">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Location</h4>
+                        <p>123 Tech Boulevard, Innovation District, CA 94103</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <p>info@nexusrobotics.tech</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-form reveal">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button"><span>Send Message</span></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>NEXUS ROBOTICS</h3>
+                <p>Pioneering robotic intelligence for a better tomorrow. We build intelligent machines that enhance human potential and transform industries.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#features">Services</a></li>
+                    <li><a href="#gallery">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="#">Industrial Automation</a></li>
+                    <li><a href="#">Healthcare Robots</a></li>
+                    <li><a href="#">Service Robots</a></li>
+                    <li><a href="#">Custom Solutions</a></li>
+                    <li><a href="#">AI Integration</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Subscribe to Newsletter</h4>
+                <p>Stay updated with our latest innovations and robotics news.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your Email Address" required>
+                    <button type="submit" class="newsletter-button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 NEXUS ROBOTICS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome Icons (CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <!-- Main JavaScript -->
+     <script src="script.js"></script>
+</body>
+</html>
